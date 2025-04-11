@@ -13,8 +13,13 @@ sudo apt-get install -y python3-pip
 
 pip3 install -r requirements.txt
 
-echo "🚀 Starting Flask app..."
-# Run Flask on port 8080 — required for Cloud Shell Preview
-FLASK_APP=app/main.py &
+echo "🚀 Starting Flask app on port 8080..."
+export FLASK_APP=app/main.py
+flask run --host=0.0.0.0 --port=8080 &
 
-echo "👉 https://8080-dot-${CLOUDSHELL_WORKSPACE//\//-}.dot-devshell.appspot.com"
+# Wait a few seconds to give Flask time to start
+sleep 3
+
+echo ""
+echo "🌐 Opening in Cloud Shell Web Preview..."
+echo "👉 https://8080-dot-${PROJECT_ID}.dot-devshell.appspot.com"

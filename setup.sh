@@ -3,7 +3,7 @@
 PROJECT_ID=$(gcloud config get-value project --quiet)
 ZONE=$(gcloud config get-value compute/zone --quiet)
 
-echo "🌍 Using Project ID:  $PROJECT_ID"
+echo "🌍 Using Project ID:  ${CLOUDSHELL_HOSTNAME}"
 echo "📍 Using Zone:        $ZONE"
 
 echo "📦 Installing dependencies..."
@@ -16,8 +16,7 @@ if lsof -i:8080 > /dev/null; then
   echo "⚠️ Port 8080 is already in use. Skipping Flask start."
 else
   echo "🚀 Starting Flask app on port 8080..."
-  export FLASK_APP=app/main.py
-  flask run --host=0.0.0.0 --port=8080 &
+  export FLASK_APP=app/main.py &
   sleep 3
 fi
 

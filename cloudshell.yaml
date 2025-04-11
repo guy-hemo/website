@@ -1,0 +1,10 @@
+version: 1.0
+openFiles:
+  - README.md
+  - app/main.py
+tasks:
+  - name: "Run Flask App"
+    description: "Sets up the environment and launches Flask"
+    command: |
+      chmod +x setup.sh
+      ./setup.sh

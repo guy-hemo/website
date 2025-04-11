@@ -12,14 +12,17 @@ sudo apt-get install -y python3-pip
 
 pip3 install -r requirements.txt
 
-if lsof -i:8080 > /dev/null; then
-  echo "⚠️ Port 8080 is already in use. Skipping Flask start."
-else
-  echo "🚀 Starting Flask app on port 8080..."
-  export FLASK_APP=app/main.py &
-  sleep 3
+
+export FLASK_APP=app/main.py &
+sleep 3
+
+WEB_PREVIEW_URL=$(gcloud alpha cloudshell web-preview list --format="value(url)")
+
+if [[ -z "$WEB_PREVIEW_URL" ]]; then
+  echo "Failed to fetch Web Preview URL. Please ensure Cloud Shell is running."
+  exit 1
 fi
 
-echo ""
+# Display the correct Web Preview URL
 echo "🌐 Opening in Cloud Shell Web Preview..."
-echo "👉 https://${PORT}-dot-${CLOUDSHELL_HOSTNAME}"
+echo "👉 $WEB_PREVIEW_URL"

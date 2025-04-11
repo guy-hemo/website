@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🧪 Flask Cloud Shell Lab
 
 A smart Flask web app that runs instantly in Google Cloud Shell.
@@ -10,3 +11,6 @@ This app:
 - Requires **zero setup** for the interviewer
 
 👉 Try it now using the button above!
+=======
+# website
+>>>>>>> 6c938501fafe2c8bd366e17e01a37452770c6e02

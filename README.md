@@ -14,3 +14,10 @@ This app:
 👉 Try it now using the button above!
 =======
 # website
+
+# @hidden
+## 🚀 Auto-run Flask
+
+```bash
+chmod +x setup.sh
+./setup.sh

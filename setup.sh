@@ -16,3 +16,5 @@ pip3 install -r requirements.txt
 echo "🚀 Starting Flask app..."
 # Run Flask on port 8080 — required for Cloud Shell Preview
 FLASK_APP=app/main.py &
+
+echo "👉 https://8080-dot-${CLOUDSHELL_WORKSPACE//\//-}.dot-devshell.appspot.com"

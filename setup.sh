@@ -1,8 +1,7 @@
 #!/bin/bash
 
-# Automatically retrieve project ID and zone (optional, not required to run Flask)
-PROJECT_ID=$(gcloud config get-value project)
-ZONE=$(gcloud config get-value compute/zone)
+PROJECT_ID=$(gcloud config get-value project --quiet)
+ZONE=$(gcloud config get-value compute/zone --quiet)
 
 echo "🌍 Using Project ID:  $PROJECT_ID"
 echo "📍 Using Zone:        $ZONE"
@@ -13,12 +12,14 @@ sudo apt-get install -y python3-pip
 
 pip3 install -r requirements.txt
 
-echo "🚀 Starting Flask app on port 8080..."
-export FLASK_APP=app/main.py
-flask run --host=0.0.0.0 --port=8080 &
-
-# Wait a few seconds to give Flask time to start
-sleep 3
+if lsof -i:8080 > /dev/null; then
+  echo "⚠️ Port 8080 is already in use. Skipping Flask start."
+else
+  echo "🚀 Starting Flask app on port 8080..."
+  export FLASK_APP=app/main.py
+  flask run --host=0.0.0.0 --port=8080 &
+  sleep 3
+fi
 
 echo ""
 echo "🌐 Opening in Cloud Shell Web Preview..."

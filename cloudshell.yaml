@@ -6,6 +6,6 @@ tasks:
   - name: "Set up environment"
     description: "Installs dependencies and prepares the Flask app."
     command: |
-      echo "Installing dependencies..."
-      pip3 install -r requirements.txt
-      echo "Setting up Flask app..."
+      bash echo "Installing dependencies..."
+      bash pip3 install -r requirements.txt
+      bash echo "Setting up Flask app..."

@@ -23,4 +23,4 @@ fi
 
 echo ""
 echo "🌐 Opening in Cloud Shell Web Preview..."
-echo "👉 https://8080-dot-${PROJECT_ID}.dot-devshell.appspot.com"
+echo "👉 https://${PORT}-dot-${CLOUDSHELL_HOSTNAME}"

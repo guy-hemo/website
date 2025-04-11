@@ -2,6 +2,7 @@
 
 PROJECT_ID=$(gcloud config get-value project --quiet)
 ZONE=$(gcloud config get-value compute/zone --quiet)
+PORT=8080
 
 echo "🌍 Using Project ID:  ${CLOUDSHELL_HOSTNAME}"
 echo "📍 Using Zone:        $ZONE"

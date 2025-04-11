@@ -15,4 +15,4 @@ pip3 install -r requirements.txt
 
 echo "🚀 Starting Flask app..."
 # Run Flask on port 8080 — required for Cloud Shell Preview
-FLASK_APP=app/main.py flask run --host=0.0.0.0 --port=5000 &
+FLASK_APP=app/main.py &

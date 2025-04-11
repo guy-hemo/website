@@ -13,11 +13,13 @@ This app:
 
 👉 Try it now using the button above!
 =======
-# website
 
-# @hidden
-## 🚀 Auto-run Flask
+
+@hidden
+## 🚀 Run Flask
 
 ```bash
 chmod +x setup.sh
 ./setup.sh
+```
+### wait for the URL to generate in Console Shell and click on it. 

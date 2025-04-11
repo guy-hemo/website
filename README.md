@@ -25,7 +25,7 @@ chmod +x setup.sh
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 🌐 Your Flask app is launching!
 
-👉 Preview URL: https://5000-cs-51d6f9ce-3d20-4d56-87f6-c5075a47898f.cs-europe-west4-pear.cloudshell.dev
+👉 Preview URL: https://<Port>-<your-session-id>.<Zone-ID>.cloudshell.dev
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```

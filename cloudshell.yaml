@@ -1,12 +1,11 @@
 version: 1.0
-
 openFiles:
   - README.md
   - app/main.py
 
 tasks:
-  - name: "Start Flask App"
-    description: "Install dependencies and run the app"
+  - name: "Install Dependencies and Run Flask App"
+    description: "Sets up the environment and starts the Flask app."
     command: |
       chmod +x setup.sh
       ./setup.sh

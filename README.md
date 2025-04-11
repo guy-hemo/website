@@ -1,9 +1,9 @@
-<<<<<<< HEAD
+
 # 🧪 Flask Cloud Shell Lab
 
 A smart Flask web app that runs instantly in Google Cloud Shell.
 
-[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://console.cloud.google.com/cloudshell/open?cloudshell_git_repo=https://github.com/YOUR_USERNAME/flask-lab)
+[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://console.cloud.google.com/cloudshell/open?cloudshell_git_repo=https://github.com/guy-hemo/website)
 
 This app:
 - Runs automatically in Google Cloud Shell
@@ -13,4 +13,3 @@ This app:
 👉 Try it now using the button above!
 =======
 # website
->>>>>>> 6c938501fafe2c8bd366e17e01a37452770c6e02

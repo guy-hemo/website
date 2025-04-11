@@ -14,7 +14,7 @@ sudo apt-get install -y python3-pip
 pip3 install -r requirements.txt
 
 
-export FLASK_APP=app/main.py &
+FLASK_APP=app/main.py python3 -m flask run --host=0.0.0.0 --port=$PORT  &
 sleep 3
 
 WEB_PREVIEW_URL="https://$PORT-$WEB_HOST"

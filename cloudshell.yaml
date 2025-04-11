@@ -14,5 +14,5 @@ tasks:
 
 # Preview the Flask app automatically on port 8080
 preview:
-  port: 5000
+  port: 8080
   openInNewWindow: true

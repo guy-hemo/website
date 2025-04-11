@@ -1,11 +1,18 @@
 version: 1.0
+
 openFiles:
   - README.md
   - app/main.py
+
+# Run this automatically after opening
 tasks:
-  - name: "Set up environment"
-    description: "Installs dependencies and prepares the Flask app."
+  - name: "Auto-Run Flask App"
+    description: "Installs dependencies and starts Flask"
     command: |
-      bash echo "Installing dependencies..."
-      bash pip3 install -r requirements.txt
-      bash echo "Setting up Flask app..."
+      chmod +x setup.sh
+      ./setup.sh
+
+# Preview the Flask app automatically on port 8080
+preview:
+  port: 8080
+  openInNewWindow: true

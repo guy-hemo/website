@@ -14,8 +14,6 @@ This app:
 👉 Try it now using the button above!
 =======
 
-
-@hidden
 ## 🚀 Run Flask
 
 ```bash
@@ -23,3 +21,11 @@ chmod +x setup.sh
 ./setup.sh
 ```
 ### wait for the URL to generate in Console Shell and click on it. 
+```bash
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌐 Your Flask app is launching!
+
+👉 Preview URL: https://5000-cs-51d6f9ce-3d20-4d56-87f6-c5075a47898f.cs-europe-west4-pear.cloudshell.dev
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```

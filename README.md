@@ -3,7 +3,8 @@
 
 A smart Flask web app that runs instantly in Google Cloud Shell.
 
-[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://console.cloud.google.com/cloudshell/open?cloudshell_git_repo=https://github.com/guy-hemo/website)
+[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://console.cloud.google.com/cloudshell/open?cloudshell_git_repo=https://github.com/guy-hemo/public-launcher-repo&cloudshell_tutorial=README.md)
+
 
 This app:
 - Runs automatically in Google Cloud Shell

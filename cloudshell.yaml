@@ -1,10 +1,13 @@
 version: 1.0
+
 openFiles:
   - README.md
   - app/main.py
+
 tasks:
-  - name: "Run Flask App"
-    description: "Sets up the environment and launches Flask"
+  - name: "SSH Setup & Run Flask App"
+    description: "Prepares SSH access and launches the Flask server"
     command: |
+      echo "🔐 Preparing SSH access..."
       chmod +x setup.sh
       ./setup.sh

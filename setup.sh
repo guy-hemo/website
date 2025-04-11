@@ -16,7 +16,7 @@ pip3 install -r requirements.txt
 export FLASK_APP=app/main.py &
 sleep 3
 
-WEB_PREVIEW_URL=$(gcloud alpha cloudshell web-preview list --format="value(url)")
+WEB_PREVIEW_URL="https://$CLOUDSHELL_HOSTNAME-dot-$USER.dot-devshell.appspot.com"
 
 if [[ -z "$WEB_PREVIEW_URL" ]]; then
   echo "Failed to fetch Web Preview URL. Please ensure Cloud Shell is running."

@@ -64,6 +64,7 @@
             <div class="skills-list">
                 {% for skill in skills %}
                 <div class="skill-item">
+                    <img src="{{ url_for('static', filename=skill.icon) }}" alt="{{ skill.name }} icon" class="skill-icon">
                     <div class="skill-name">{{ skill.name }}</div>
                     <div class="skill-bar">
                         <div class="skill-level" style="width: {{ skill.level }}%;">{{ skill.level }}%</div>

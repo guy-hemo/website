@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Statistics</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo"><a href="/">Your Name</a></div>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/#projects">Projects</a></li>
+                    <li><a href="/skills">Skills</a></li>
+                    <li><a href="/#experience">Experience</a></li>
+                    <li><a href="/#testimonials">Testimonials</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="admin-stats-section">
+        <div class="container">
+            <h1>Admin Statistics</h1>
+            <div class="stats-overview">
+                <h2>Website Visitors</h2>
+                <p>Total Unique Visitors: <strong>{{ visitor_count }}</strong></p>
+            </div>
+
+            {% if visitors %}
+            <h2>Recent Visitors</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>IP Address</th>
+                        <th>Timestamp</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for ip, timestamp in visitors.items() %}
+                    <tr>
+                        <td>{{ ip }}</td>
+                        <td>{{ timestamp }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            {% else %}
+            <p>No visitor data available yet.</p>
+            {% endif %}
+
+            <div class="back-link">
+                <a href="/">Back to Home</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; {{ datetime.datetime.now().year }} Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

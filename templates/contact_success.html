@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Sent!</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo"><a href="/">Your Name</a></div>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/#projects">Projects</a></li>
+                    <li><a href="/skills">Skills</a></li>
+                    <li><a href="/#experience">Experience</a></li>
+                    <li><a href="/#testimonials">Testimonials</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="contact-success-section">
+        <div class="container">
+            <h1>Thank you, {{ name }}!</h1>
+            <p>Your message has been sent successfully. I will get back to you as soon as possible.</p>
+            <div class="back-link">
+                <a href="/contact">Back to Contact</a>
+                <a href="/">Back to Home</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; {{ datetime.datetime.now().year }} Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ project.title }} - Project Details</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo"><a href="/">Your Name</a></div>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/#projects">Projects</a></li>
+                    <li><a href="/skills">Skills</a></li>
+                    <li><a href="/#experience">Experience</a></li>
+                    <li><a href="/#testimonials">Testimonials</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="project-detail-section">
+        <div class="container">
+            <div class="project-header">
+                <h1>{{ project.title }}</h1>
+                <div class="project-links">
+                    {% if project.live_demo %}
+                    <a href="{{ project.live_demo }}" target="_blank" class="button"><i class="fas fa-eye"></i> Live Demo</a>
+                    {% endif %}
+                    {% if project.github %}
+                    <a href="{{ project.github }}" target="_blank" class="button"><i class="fab fa-github"></i> GitHub Repository</a>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="project-content">
+                <div class="project-image">
+                    <img src="{{ url_for('static', filename=project.image) }}" alt="{{ project.title }}">
+                </div>
+                <div class="project-description">
+                    <h2>Project Description</h2>
+                    <p>{{ project.description }}</p>
+                    <h3>Technologies Used</h3>
+                    <ul class="tech-list">
+                        {% for tech in project.technologies %}
+                        <li>{{ tech }}</li>
+                        {% endfor %}
+                    </ul>
+                    </div>
+            </div>
+            <div class="back-link">
+                <a href="/#projects"><i class="fas fa-arrow-left"></i> Back to Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; {{ datetime.datetime.now().year }} Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

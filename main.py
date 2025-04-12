@@ -15,7 +15,7 @@ projects = [
         "technologies": ["Flask", "HTML", "CSS", "JavaScript"],
         "live_demo": "https://your-portfolio-url.com",
         "github": "https://github.com/guy-hemo/guy-hemo",
-        "image": "static/img/portfolio.png"  # Add placeholder image
+        "image": "img/portfolio.png"  # Corrected path relative to static
     },
     {
         "id": 2,
@@ -24,19 +24,34 @@ projects = [
         "technologies": ["Django", "Pandas", "Matplotlib", "Seaborn"],
         "live_demo": None,
         "github": "https://github-activity-graph.vercel.app/graph?username=guy-hemo&theme=github-compact",
-        "image": "static/img/dashboard.png"  # Add placeholder image
+        "image": "img/dashboard.png"  # Corrected path relative to static
     },
     # Add more projects here
 ]
 skills = [
     {"name": "Python", "level": 90},
     {"name": "Flask", "level": 85},
-    {"name": "Django", "level": 75},
-    {"name": "JavaScript", "level": 80},
-    {"name": "HTML", "level": 95},
-    {"name": "CSS", "level": 90},
-    {"name": "SQL", "level": 80},
+    {"name": "AWS", "level": 75},
+    {"name": "Docker", "level": 80},
+    {"name": "Kubernetes", "level": 95},
+    {"name": "Terraform", "level": 90},
+    {"name": "Ansible", "level": 80},
+    {"name": "Jenkins", "level": 90},
     {"name": "Git", "level": 90},
+    {"name": "PowerShell", "level": 90},
+    {"name": "Bash", "level": 90},
+    {"name": "Groov", "level": 90},
+    {"name": "Elaseticsearch", "level": 90},
+    {"name": "Kibana", "level": 90},
+    {"name": "Prometheus", "level": 90},
+    {"name": "Grafana", "level": 90},
+    {"name": "CloudFlare", "level": 90},
+    {"name": "Networking", "level": 90},
+    {"name": "MySQL", "level": 90},
+    {"name": "PostreSQL", "level": 90},
+    {"name": "MongoDB", "level": 90},
+    {"name": "Windows", "level": 90},
+    {"name": "Linux", "level": 90},
     # Add more skills
 ]
 experience = [

@@ -32,7 +32,7 @@
                     {% if project.live_demo %}
                     <a href="{{ project.live_demo }}" target="_blank" class="button"><i class="fas fa-eye"></i> Live Demo</a>
                     {% endif %}
-                    {% if project.github %}
+                    {% if project.github and 'github-activity-graph' not in project.github %}
                     <a href="{{ project.github }}" target="_blank" class="button"><i class="fab fa-github"></i> GitHub Repository</a>
                     {% endif %}
                 </div>
@@ -50,7 +50,12 @@
                         <li>{{ tech }}</li>
                         {% endfor %}
                     </ul>
-                    </div>
+
+                    {% if project.github and 'github-activity-graph' in project.github %}
+                    <h3>GitHub Activity</h3>
+                    <img src="{{ project.github }}" alt="GitHub Activity Graph" style="max-width: 100%;">
+                    {% endif %}
+                </div>
             </div>
             <div class="back-link">
                 <a href="/#projects"><i class="fas fa-arrow-left"></i> Back to Projects</a>

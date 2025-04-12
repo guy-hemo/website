@@ -39,23 +39,30 @@ skills = [
     {"name": "Git", "level": 90},
     # Add more skills
 ]
-testimonials = [
-    {"name": "John Doe", "title": "Manager at Tech Inc.", "quote": "Exceptional problem-solving skills and a strong understanding of web development."},
-    {"name": "Jane Smith", "title": "Team Lead at Software Ltd.", "quote": "A highly motivated and quick learner with excellent communication skills."},
-    # Add more testimonials
-]
 experience = [
     {
-        "title": "Software Engineer Intern",
-        "company": "Acme Corp",
-        "years": "Summer 2024",
-        "description": "Developed and maintained features for the company's flagship product using Python and Django."
+        "title": "DevOps",
+        "company": "Leverate",
+        "years": "2023 TO PRESENT",
+        "description": "Designed and maintained CI/CD pipelines in Jenkins,reducing deployment time by 30%. Build and manage Docker containers for microservicesarchitecture.Administer Kubernetes (EKS) environments, handlingPods, PVCs, and Service configurations. Automate infrastructure tasks using Ansible andTerraform.Manage AWS cloud services, including EC2, S3, IAM, andAuto Scaling.Implement monitoring solutions with ELK, Prometheus,and CloudTrail.Enhance security through CloudFlare, TLS encryption, and DDoS mitigation."
     },
     {
-        "title": "Freelance Web Developer",
-        "company": "Self-Employed",
-        "years": "2023 - Present",
-        "description": "Designed and built responsive websites for various clients using Flask and front-end technologies."
+        "title": "DevOps",
+        "company": "Ministry of Health",
+        "years": "2021 TO 2023",
+        "description": "Managed Linux and Windows-based environments,ensuring optimal uptime and performance.Deployed and maintained Kubernetes (EKS)workloads and Docker images.Automated operational processes using Bash,Python, and PowerShell.Monitored infrastructure using SCOM, Kibana,vROps, and Grafana.Configured F5 and NGINX load balancers forapplication traffic management.Administered network protocols, including TCP,UDP, SSH, and FTP.Integrated LDAP and SSO authentication for secureaccess control."
+    },
+    {
+        "title": "System Administrator",
+        "company": "Kan 11 Local TV",
+        "years": "2019 TO 2020",
+        "description": "Managed a hybrid infrastructure of Linux andWindows servers (300-500 machines).Configured and maintained VMware vSphereenvironments for optimal performance.Provided Linux-based server support (Ubuntu,CentOS) and troubleshooting.Secured network environments with Cisco switches,VLANs, and firewalls (Fortigate, Checkpoint).Automated administrative tasks with PowerShell and Bash scripting.Deployed enterprise software solutions to supportbroadcast operations."
+    },
+    {
+        "title": "System Administrator",
+        "company": "Intel Corp",
+        "years": "2017 TO 2019",
+        "description": "Oversaw a high-scale environment with 1000+ Linux and Windows servers. Created and maintained VMware-based infrastructure and automated provisioning. Developed PowerShell scripts for server automation and maintenance. Managed Linux package repositories and troubleshooting. Configured and optimized NGINX, load balancers, and network protocols. Collaborated with the NoC team for incident management and monitoring alert response."
     },
     # Add more experience
 ]
@@ -77,7 +84,6 @@ def index():
                            visitor_count=get_visitor_count(),
                            projects=projects,
                            skills=skills,
-                           testimonials=testimonials,
                            experience=experience,
                            datetime=datetime)
 

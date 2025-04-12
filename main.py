@@ -29,13 +29,13 @@ projects = [
     # Add more projects here
 ]
 skills = [
-    {"name": "Python", "level": 100, "icon": "img/skills/logos_python.svg"},
+    {"name": "Python", "level": 100, "icon": "img/logos/logos_python.svg"},
     {"name": "Flask", "level": 100},
     {"name": "AWS", "level": 100},
-    {"name": "Docker", "level": 100, "icon": "img/skills/logos_docker.svg"},
-    {"name": "Kubernetes", "level": 100, "icon": "img/skills/logos_kubernetes.svg"},
-    {"name": "Terraform", "level": 100, "icon": "img/skills/logos_terraform.svg"},
-    {"name": "Ansible", "level": 100, "icon": "img/skills/logos_ansible.svg"},
+    {"name": "Docker", "level": 100, "icon": "img/logos/logos_docker.svg"},
+    {"name": "Kubernetes", "level": 100, "icon": "img/logos/logos_kubernetes.svg"},
+    {"name": "Terraform", "level": 100, "icon": "img/logos/logos_terraform.svg"},
+    {"name": "Ansible", "level": 100, "icon": "img/logos/logos_ansible.svg"},
     {"name": "Jenkins", "level": 100},
     {"name": "Git", "level": 100},
     {"name": "PowerShell", "level": 100},

@@ -94,7 +94,7 @@ experience = [
         "company": "Kan 11 Local TV",
         "years": "2019 TO 2020",
         "description": [
-            "Managed a hybrid infrastructure of <strong>Linux</strong> and <strong>Windows</strong> servers (300-500 machines).",
+            "Managed a hybrid infrastructure of <b>Linux</b> and <strong>Windows</strong> servers (300-500 machines).",
             "Configured and maintained <strong>VMware</strong> <strong>vSphere</strong> environments for optimal performance.",
             "Provided Linux-based server support (<strong>Ubuntu</strong>, <strong>CentOS</strong>) and troubleshooting.",
             "Secured network environments with Cisco switches, <strong>VLANs</strong>, and firewalls (Fortigate, Checkpoint).",

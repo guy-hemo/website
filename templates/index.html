@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
+    <title>Guy Hemo - Portfolio</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -11,7 +11,7 @@
     <header>
         <nav>
             <div class="container">
-                <div class="logo">Your Name</div>
+                <div class="logo">Guy Hemo - DevOps</div>
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/#projects">Projects</a></li>
@@ -27,9 +27,8 @@
     <section class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1>Hi, I'm Your Name</h1>
-                <p>A passionate web developer with a focus on building innovative and user-friendly applications.</p>
-                <a href="/#projects" class="button">View My Projects</a>
+                <h1>Guy Hemo</h1>
+                <p>DevOps Engineer expertise in cloud infrastructure, automation, and CI/CD. Skilled in managing Kubernetesclusters, optimizing system performance, and securing Linux & Windows environments. Passionate aboutstreamlining deployments, enhancing scalability, and implementing robust monitoring solutions.</p>
             </div>
             <div class="hero-image">
                 <img src="{{ url_for('static', filename='img/profile.png') }}" alt="Your Profile Picture">
@@ -39,7 +38,7 @@
 
     <section id="projects" class="projects-section">
         <div class="container">
-            <h2>My Projects</h2>
+            <h2>GitHub Stats</h2>
             <div class="project-grid">
                 {% for project in projects %}
                 <div class="project-card">

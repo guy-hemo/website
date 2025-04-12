@@ -30,7 +30,7 @@
                 <p>DevOps Engineer expertise in cloud infrastructure, automation, and CI/CD. Skilled in managing Kubernetesclusters, optimizing system performance, and securing Linux & Windows environments. Passionate aboutstreamlining deployments, enhancing scalability, and implementing robust monitoring solutions.</p>
             </div>
             <div class="hero-image">
-                <img src="{{ url_for('static', filename='img/profile.png') }}" alt="Your Profile Picture">
+                <img src="{{ url_for('static', filename='img/logos_cicd.svg') }}" alt="cicd">
             </div>
         </div>
     </section>
@@ -66,9 +66,6 @@
                 <div class="skill-item">
                     <img src="{{ url_for('static', filename=skill.icon) }}" alt="{{ skill.name }} icon" class="skill-icon">
                     <div class="skill-name">{{ skill.name }}</div>
-                    <div class="skill-bar">
-                        <div class="skill-level" style="width: {{ skill.level }}%;">{{ skill.level }}%</div>
-                    </div>
                 </div>
                 {% endfor %}
             </div>

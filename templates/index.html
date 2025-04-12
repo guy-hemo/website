@@ -14,10 +14,9 @@
                 <div class="logo">Guy Hemo - DevOps</div>
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/#projects">Projects</a></li>
+                    <li><a href="/#projects">GitHub Stats</a></li>
                     <li><a href="/skills">Skills</a></li>
                     <li><a href="/#experience">Experience</a></li>
-                    <li><a href="/#testimonials">Testimonials</a></li>
                     <li><a href="/contact">Contact</a></li>
                 </ul>
             </div>
@@ -43,8 +42,6 @@
                 {% for project in projects %}
                 <div class="project-card">
                     <img src="{{ url_for('static', filename=project.image) }}" alt="{{ project.title }}">
-                    <h3>{{ project.title }}</h3>
-                    <p>{{ project.description|truncate(100) }}</p>
                     <div class="project-links">
                         <a href="/project/{{ project.id }}">Learn More</a>
                         {% if project.live_demo %}

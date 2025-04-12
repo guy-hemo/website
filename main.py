@@ -14,7 +14,7 @@ projects = [
         "description": "A responsive website showcasing my skills, projects, and resume.",
         "technologies": ["Flask", "HTML", "CSS", "JavaScript"],
         "live_demo": "https://your-portfolio-url.com",
-        "github": "https://github.com/your-username/portfolio",
+        "github": "https://github.com/guy-hemo/guy-hemo",
         "image": "static/img/portfolio.png"  # Add placeholder image
     },
     {
@@ -23,7 +23,7 @@ projects = [
         "description": "A dashboard visualizing sales data using Python libraries.",
         "technologies": ["Django", "Pandas", "Matplotlib", "Seaborn"],
         "live_demo": None,
-        "github": "https://github.com/your-username/data-dashboard",
+        "github": "https://github-activity-graph.vercel.app/graph?username=guy-hemo&theme=github-compact",
         "image": "static/img/dashboard.png"  # Add placeholder image
     },
     # Add more projects here

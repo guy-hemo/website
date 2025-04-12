@@ -312,6 +312,22 @@ nav ul li a:hover {
     color: var(--secondary-color);
 }
 
+.skills-list .skill-item {
+    display: flex; /* Ensure icon and text are in a row */
+    align-items: center; /* Vertically align icon and text */
+    margin-bottom: 15px; /* Adjust spacing between skill items */
+}
+
+.skills-list .skill-item .skill-icon {
+    width: 24px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.skills-list .skill-item .skill-name {
+    font-size: 1.2em; /* Adjust text size */
+}
+
 /* Testimonials Section */
 .testimonials-section {
     padding: 60px 0;

@@ -10,8 +10,8 @@ visitors = {}
 projects = [
     {
         "id": 1,
-        "title": None,
-        "description": None,
+        "title": " ",
+        "description": " ",
         "technologies": ["Flask", "HTML", "CSS", "JavaScript"],
         "live_demo": None,
         "github": "https://github-readme-stats.vercel.app/api?username=guy-hemo&show_icons=true&theme=github_dark",
@@ -19,8 +19,8 @@ projects = [
     },
     {
         "id": 2,
-        "title": None,
-        "description": None,
+        "title": " ",
+        "description": " ",
         "technologies": ["Django", "Pandas", "Matplotlib", "Seaborn"],
         "live_demo": None,
         "github": "https://github-activity-graph.vercel.app/graph?username=guy-hemo&theme=github-compact",

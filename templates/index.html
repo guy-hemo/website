@@ -61,6 +61,12 @@
                         <img src="{{ project.github }}" alt="GitHub Activity Graph" style="max-width: 100%;">
                     </div>
                     {% endif %}
+                    {% if project.github and 'github-readme-stats' in project.github %}
+                    <div class="github-readme-stats">
+                        <h3>GitHub Activity</h3>
+                        <img src="{{ project.github }}" alt="Github Stats" style="max-width: 100%;">
+                    </div>
+                    {% endif %}
                 </div>
                 {% endfor %}
             </div>

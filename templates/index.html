@@ -80,9 +80,11 @@
                 <div class="experience-item">
                     <h3>{{ exp.title }}</h3>
                     <p class="company">{{ exp.company }} | {{ exp.years }}</p>
-                    <ul> {% for point in exp.description %}
-                        <li>{{ point }}</li> {% endfor %}
-                    </ul> </div>
+                    <ul>
+                        {% for point in exp.description %}
+                        <li>{{ point|safe }}</li>  {% endfor %}
+                    </ul>
+                </div>
                 {% endfor %}
             </div>
         </div>

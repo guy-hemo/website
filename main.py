@@ -66,13 +66,13 @@ experience = [
         "company": "Leverate",
         "years": "2023 TO PRESENT",
         "description": [
-            "Designed and maintained CI/CD pipelines in Jenkins, reducing deployment time by 30%.",
-            "Build and manage Docker containers for microservices architecture.",
-            "Administer Kubernetes (EKS) environments, handling Pods, PVCs, and Service configurations.",
-            "Automate infrastructure tasks using Ansible and Terraform.",
-            "Manage AWS cloud services, including EC2, S3, IAM, and Auto Scaling.",
-            "Implement monitoring solutions with ELK, Prometheus, and CloudTrail.",
-            "Enhance security through CloudFlare, TLS encryption, and DDoS mitigation."
+            "Designed and maintained <strong>CI/CD</strong> pipelines in <strong>Jenkins</strong>, reducing deployment time by 30%.",
+            "Build and manage <strong>Docker</strong> containers for microservices architecture.",
+            "Administer <strong>Kubernetes (EKS)</strong> environments, handling Pods, PVCs, and Service configurations.",
+            "Automate infrastructure tasks using <strong>Ansible</strong> and <strong>Terraform</strong>.",
+            "Manage <strong>AWS</strong> cloud services, including EC2, S3, IAM, and Auto Scaling.",
+            "Implement monitoring solutions with <strong>ELK</strong>, <strong>Prometheus</strong>, and <strong>CloudTrail</strong>.",
+            "Enhance security through <strong>CloudFlare</strong>, TLS encryption, and DDoS mitigation."
         ]
     },    
     {
@@ -80,13 +80,13 @@ experience = [
         "company": "Ministry of Health",
         "years": "2021 TO 2023",
         "description": [
-            "Managed Linux and Windows-based environments, ensuring optimal uptime and performance.",
-            "Deployed and maintained Kubernetes (EKS) workloads and Docker images.",
-            "Automated operational processes using Bash, Python, and PowerShell.",
-            "Monitored infrastructure using SCOM, Kibana, vROps, and Grafana.",
-            "Configured F5 and NGINX load balancers for application traffic management.",
-            "Administered network protocols, including TCP, UDP, SSH, and FTP.",
-            "Integrated LDAP and SSO authentication for secure access control."
+            "Managed <strong>Linux</strong> and <strong>Windows</strong> - based environments, ensuring optimal uptime and performance.",
+            "Deployed and maintained <strong>Kubernetes</strong> (EKS) workloads and <strong>Docker</strong> images.",
+            "Automated operational processes using <strong>Bash</strong>, <strong>Python</strong>, and <strong>PowerShell</strong>.",
+            "Monitored infrastructure using <strong>SCOM</strong>, <strong>Kibana</strong>, <strong>vROps</strong>, and <strong>Grafana</strong>.",
+            "Configured <strong>F5</strong> and <strong>NGINX</strong> load balancers for application traffic management.",
+            "Administered network protocols, including <strong>TCP</strong>, <strong>UDP</strong>, <strong>SSH</strong>, and <strong>FTP</strong>.",
+            "Integrated <strong>LDAP</strong> and <strong>SSO</strong> authentication for secure access control."
         ]
     },
     {
@@ -94,11 +94,11 @@ experience = [
         "company": "Kan 11 Local TV",
         "years": "2019 TO 2020",
         "description": [
-            "Managed a hybrid infrastructure of Linux and Windows servers (300-500 machines).",
-            "Configured and maintained VMware vSphere environments for optimal performance.",
-            "Provided Linux-based server support (Ubuntu, CentOS) and troubleshooting.",
-            "Secured network environments with Cisco switches, VLANs, and firewalls (Fortigate, Checkpoint).",
-            "Automated administrative tasks with PowerShell and Bash scripting.",
+            "Managed a hybrid infrastructure of <strong>Linux</strong> and <strong>Windows</strong> servers (300-500 machines).",
+            "Configured and maintained <strong>VMware</strong> <strong>vSphere</strong> environments for optimal performance.",
+            "Provided Linux-based server support (<strong>Ubuntu</strong>, <strong>CentOS</strong>) and troubleshooting.",
+            "Secured network environments with Cisco switches, <strong>VLANs</strong>, and firewalls (Fortigate, Checkpoint).",
+            "Automated administrative tasks with <strong>PowerShell</strong> and <strong>Bash</strong> scripting.",
             "Deployed enterprise software solutions to support broadcast operations."
         ]
     },
@@ -107,11 +107,11 @@ experience = [
         "company": "Intel Corp",
         "years": "2017 TO 2019",
         "description": [
-            "Oversaw a high-scale environment with 1000+ Linux and Windows servers.",
-            "Created and maintained VMware-based infrastructure and automated provisioning.",
-            "Developed PowerShell scripts for server automation and maintenance.",
-            "Managed Linux package repositories and troubleshooting.",
-            "Configured and optimized NGINX, load balancers, and network protocols.",
+            "Oversaw a high-scale environment with 1000+ <strong>Linux</strong> and <strong>Windows</strong> servers.",
+            "Created and maintained <strong>VMware</strong>-based infrastructure and automated provisioning.",
+            "Developed <strong>PowerShell</strong> scripts for server automation and maintenance.",
+            "Managed <strong>Linux</strong> package repositories and troubleshooting.",
+            "Configured and optimized <strong>NGINX</strong>, load balancers, and network protocols.",
             "Collaborated with the NoC team for incident management and monitoring alert response."
         ]
     },    

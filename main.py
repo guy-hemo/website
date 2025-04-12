@@ -10,17 +10,17 @@ visitors = {}
 projects = [
     {
         "id": 1,
-        "title": "Personal Portfolio Website",
-        "description": "A responsive website showcasing my skills, projects, and resume.",
+        "title": "Personal GitHub Stats",
+        "description": " ",
         "technologies": ["Flask", "HTML", "CSS", "JavaScript"],
-        "live_demo": "https://your-portfolio-url.com",
-        "github": "https://github.com/guy-hemo/guy-hemo",
+        "live_demo": None,
+        "github": "https://github-readme-stats.vercel.app/api?username=guy-hemo&show_icons=true&theme=github_dark",
         "image": "img/portfolio.png"  # Corrected path relative to static
     },
     {
         "id": 2,
-        "title": "Data Analysis Dashboard",
-        "description": "A dashboard visualizing sales data using Python libraries.",
+        "title": "GitHub Analysis Dashboard",
+        "description": "A dashboard visualizing GitHub data.",
         "technologies": ["Django", "Pandas", "Matplotlib", "Seaborn"],
         "live_demo": None,
         "github": "https://github-activity-graph.vercel.app/graph?username=guy-hemo&theme=github-compact",
